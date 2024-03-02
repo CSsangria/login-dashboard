@@ -29,23 +29,50 @@ ul {
   li a:hover:not(.active) {
     background-color: #736d6d;
     color: white;
+    transition: background-color 0.3s;
   }
 
-.c1 a{
-    font-size: 37px;
+.c1 button a{
+    font-size: 20px;
     width: 10%;
+    text-decoration: none;
+    text-decoration-line: none;
+    
+}
+
+.c1 button{
     padding: 12px 20px;
     margin: 8px 0;
+    border-radius:55px;
     box-sizing: border-box; 
-    border-radius:55px; 
 }
 
-.c1 label{
-    background-color: cyan;
-
-}
 
 .c1 div{
     background-color: pink;
+
+}
+
+.c1 h2{
+  color: rgb(216, 203, 143);
+  font-size: 35px;
+}
+div {
+  background-color: rgb(255, 242, 217);
+  padding:50px;
+  border-radius: 4px;
+  box-shadow: 10px 10px rgb(87, 79, 79);
+  width: 200px;
+  margin: 50px auto;
+  text-align: center;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.c1 input{
+width: 80%;
+margin-top: 10px;
+padding: 10px;
+border: 1px solid rgb(0, 0, 0);
 
 }
