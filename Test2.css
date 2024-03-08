@@ -2,24 +2,24 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f0f0f0; /* Set initial background color */
-  animation: fadeIn1 2s ease-in-out forwards; /* Use fadeIn animation */
+  background-color: #f0f0f0; 
+  animation: fadeIn1 2s ease-in-out forwards; 
 }
 
 @keyframes fadeIn1 {
   from {
-    background-color: rgba(0, 124, 255, 1); /* Start with background color black */
+    background-color: rgba(0, 124, 255, 1);
   }
   to {
-    background-color: #f0f0f0; /* End with initial background color */
+    background-color: #f0f0f0; 
   }
 }
 @keyframes fadeIn2 {
   from {
-    background-color: rgba(0, 124, 255, 1); /* Start with background color black */
+    background-color: rgba(0, 124, 255, 1);
   }
   to {
-    background-color: #464141; /* End with initial background color */
+    background-color: #464141; 
   }
 }
 @keyframes TextfadeIn {
